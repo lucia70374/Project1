@@ -43,7 +43,6 @@ const basicDeviceFields = (rn, dr, si, dn, y) => {
     // find created rack name
     cy.get('#id_rack-ts-control').type(rn).scrollIntoView().click({force:true});
     cy.get('#id_rack-ts-dropdown [aria-selected="true"]').invoke('text', rn).scrollIntoView().click({force:true});
-
 }
 
 const rackFaceFront = () => {
