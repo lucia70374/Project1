@@ -1,0 +1,19 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "description": "cypress project",
+  "main": "index.js",
+  "scripts": {
+    "test-open": "cypress open",
+    "test-run": "cypress run --spec ./cypress/e2e/**/*.cy.{js,jsx,ts,tsx}"
+  },
+  "keywords": [],
+  "author": "Tatjana VB",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^14.3.0",
+    "cypress-real-events": "^1.14.0",
+    "date-fns": "4.1.0",
+    "date-fns-tz": "3.2.0"
+  }
+}
